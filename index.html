@@ -4,7 +4,67 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Appolly</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="container header-container">
+        <nav class="navigation">
+          <ul class="navigation-list">
+            <button type="button" class="mobile-menu-open" data-menu-open>
+              <svg class="mobile-burger-icon" width="40" height="40">
+                <use href="./images/sprite.svg#burger"></use>
+              </svg>
+            </button>
+            <li><a class="download-link" href="" download>Download</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--SECTION ABOUT-->
+      <section class="about section">
+        <div class="container">
+          <h2 class="about-section-header">About Our App</h2>
+          <p class="text dark-style-text about-main-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+            nunc ante velit vitae.
+          </p>
+          <img src="" alt="" />
+          <ul class="about-list">
+            <li class="about-list-item">
+              <h3 class="about-list-header item-header">Creative design</h3>
+              <p class="text dark-style-text">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </li>
+            <li class="about-list-item">
+              <h3 class="about-list-header item-header">easy to use</h3>
+              <p class="text dark-style-text">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </li>
+            <li class="about-list-item">
+              <h3 class="about-list-header item-header">Best user experince</h3>
+              <p class="text dark-style-text">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>

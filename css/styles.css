@@ -1,0 +1,145 @@
+:root {
+  --primary-text-color: #6c6c72;
+  --headers-color: #232233;
+  --background-color: #ffffff;
+  --accent-color: #7572ff;
+  --button-color: #5956e9;
+  --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--third-text-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+address {
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ----------------- HEADER ----------------- */
+.navigation {
+  background-color: aqua;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-link {
+  display: inline-block;
+  width: 76px;
+  height: 34px;
+  background-color: var(--button-color);
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+/* ----------------- ABOUT ----------------- */
+.about-section-header {
+  margin-bottom: 18px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: calc(38 / 25);
+  text-transform: uppercase;
+
+  color: var(--headers-color);
+}
+
+.item-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  text-transform: uppercase;
+
+  color: var(--headers-color);
+}
+
+.about-main-text {
+  margin-bottom: 40px;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  color: var(--primary-text-color);
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 688px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1170px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
