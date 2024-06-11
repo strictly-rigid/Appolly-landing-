@@ -17,7 +17,7 @@
     min-height: 1714px;
     background-image: url("../images/features/features-bg-tablet.jpg");
   }
-  picture {
+  .features-picture {
     margin-left: 65px;
   }
 
@@ -58,5 +58,19 @@
   .features-item.features-item-six {
     bottom: -147px;
     left: 436px;
+  }
+
+  .download-container {
+    gap: 80px;
+  }
+
+  .download-info-wrapper {
+    max-width: 570px;
+  }
+
+  .download-links-wrapper {
+    justify-content: flex-start;
+    gap: 25px;
+    margin-bottom: 60px;
   }
 }

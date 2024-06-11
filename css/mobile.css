@@ -49,4 +49,9 @@
   .features-icon {
     margin-bottom: 30px;
   }
+
+  /* ----------------- DOWNLOAD ----------------- */
+  .download-links-wrapper {
+    margin-bottom: 60px;
+  }
 }

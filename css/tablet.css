@@ -79,4 +79,18 @@
     bottom: -132px;
     left: 230px;
   }
+
+  /* ----------------- DOWNLOAD ----------------- */
+  .download-container {
+    display: flex;
+    gap: 28px;
+  }
+  .download-info-wrapper {
+    max-width: 329px;
+  }
+
+  .download-links-wrapper {
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
 }
