@@ -1,0 +1,82 @@
+@media screen and (min-width: 768px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .about-section {
+    padding-bottom: 159px;
+  }
+
+  .about-section-header {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: calc(47 / 31);
+  }
+
+  .about-main-text {
+    max-width: 450px;
+    margin: 0 auto 60px auto;
+  }
+
+  .about-wrapper {
+    flex-direction: row;
+    gap: 60px;
+  }
+  /* ----------------- FEATURES ----------------- */
+  .features-section {
+    min-height: 1300px;
+    background-image: url("../images/features/features-bg-tablet.jpg");
+  }
+  .features-container {
+    max-width: 700px;
+  }
+
+  .features-wrapper {
+    position: relative;
+    padding-top: 180px;
+  }
+
+  .features-item {
+    position: absolute;
+    max-width: 225px;
+  }
+
+  .features-text {
+    margin-bottom: 60px;
+  }
+
+  .features-item.features-item-one {
+    top: 0;
+    left: 230px;
+    margin-bottom: 60px;
+  }
+  .features-item.features-item-two {
+    text-align: right;
+    top: 242px;
+    left: 0;
+    margin-bottom: 86px;
+  }
+  .features-item.features-item-three {
+    text-align: right;
+    top: 512px;
+    left: 0;
+  }
+
+  .features-item.features-item-four {
+    top: 242px;
+    right: 10px;
+    text-align: left;
+  }
+
+  .features-item.features-item-five {
+    top: 512px;
+    right: 10px;
+    text-align: left;
+  }
+
+  .features-item.features-item-six {
+    bottom: -132px;
+    left: 230px;
+  }
+}

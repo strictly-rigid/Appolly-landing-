@@ -1,0 +1,62 @@
+@media screen and (min-width: 1440px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .about-section {
+    padding-bottom: 138px;
+  }
+
+  .about-list-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  /* ----------------- FEATURES ----------------- */
+  .features-section {
+    min-height: 1714px;
+    background-image: url("../images/features/features-bg-tablet.jpg");
+  }
+  picture {
+    margin-left: 65px;
+  }
+
+  .features-container {
+    max-width: 1170px;
+  }
+
+  .features-item {
+    max-width: 297px;
+  }
+  .features-item-header {
+    font-size: 25px;
+  }
+
+  .features-item.features-item-one {
+    top: 0;
+    left: 436px;
+  }
+  .features-item.features-item-two {
+    top: 300px;
+    left: 33px;
+  }
+  .features-item.features-item-three {
+    top: 818px;
+    left: 33px;
+  }
+
+  .features-item.features-item-four {
+    top: 300px;
+    right: 49px;
+  }
+
+  .features-item.features-item-five {
+    top: 818px;
+    right: 49px;
+  }
+
+  .features-item.features-item-six {
+    bottom: -147px;
+    left: 436px;
+  }
+}

@@ -31,40 +31,175 @@
           </ul>
         </nav>
       </div>
-
+    </header>
+    <main>
       <!--SECTION ABOUT-->
-      <section class="about section">
-        <div class="container">
+      <!-- <section class="about-section section">
+        <div class="container about-container">
           <h2 class="about-section-header">About Our App</h2>
           <p class="text dark-style-text about-main-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae.
           </p>
-          <img src="" alt="" />
-          <ul class="about-list">
-            <li class="about-list-item">
-              <h3 class="about-list-header item-header">Creative design</h3>
-              <p class="text dark-style-text">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </li>
-            <li class="about-list-item">
-              <h3 class="about-list-header item-header">easy to use</h3>
-              <p class="text dark-style-text">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </li>
-            <li class="about-list-item">
-              <h3 class="about-list-header item-header">Best user experince</h3>
-              <p class="text dark-style-text">
-                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
-              </p>
-            </li>
-          </ul>
+          <div class="about-wrapper">
+            <img
+              src="./images/about/about-picture-238-359.jpg"
+              class="about-img"
+              alt="app design" />
+            <ul class="about-list">
+              <li class="about-list-item">
+                <div class="about-list-item-wrapper">
+                  <svg class="about-checkbox" width="24" height="24">
+                    <use href="./images/sprite.svg#checkbox"></use>
+                  </svg>
+                  <h3 class="about-list-header item-header">Creative design</h3>
+                </div>
+
+                <p class="text dark-style-text about-item-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+                </p>
+              </li>
+              <li class="about-list-item">
+                <div class="about-list-item-wrapper">
+                  <svg class="about-checkbox" width="24" height="24">
+                    <use href="./images/sprite.svg#checkbox"></use>
+                  </svg>
+                  <h3 class="about-list-header item-header">easy to use</h3>
+                </div>
+                <p class="text dark-style-text about-item-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+                </p>
+              </li>
+              <li class="about-list-item">
+                <div class="about-list-item-wrapper">
+                  <svg class="about-checkbox" width="24" height="24">
+                    <use href="./images/sprite.svg#checkbox"></use>
+                  </svg>
+                  <h3 class="about-list-header item-header">
+                    Best user experince
+                  </h3>
+                </div>
+                <p class="text dark-style-text about-item-text">
+                  Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <!--SECTION FEATURES-->
+      <section class="section features-section">
+        <div class="features-container">
+          <h2 class="features-section-header section-header">App features</h2>
+          <p class="text features-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
+            nunc ante velit vitae.
+          </p>
+          <div class="features-wrapper">
+            <ul class="features-list">
+              <li class="features-item features-item-one">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#comment"></use>
+                </svg>
+                <h3 class="features-item-header item-header">Full free chat</h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="features-item features-item-two">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#browser"></use>
+                </svg>
+                <h3 class="features-item-header item-header">
+                  unlimited features
+                </h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="features-item features-item-three">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#pencil"></use>
+                </svg>
+                <h3 class="features-item-header item-header">
+                  awsome ui design
+                </h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+            <picture class="features-picture">
+              <source
+                srcset="
+                  ./images/features/features-picture-375-812.png    1x,
+                  ./images/features/features-picture-375-812@2x.png 2x
+                "
+                media="(min-width: 1440px)" />
+              <source
+                srcset="
+                  ./images/features/features-picture-214-468.png    1x,
+                  ./images/features/features-picture-214-468@2x.jpg 2x
+                "
+                media="(min-width: 768px)" />
+              <source
+                srcset="
+                  ./images/features/features-picture-214-468.png    1x,
+                  ./images/features/features-picture-214-468@2x.jpg 2x
+                "
+                media="(min-width: 375px)" />
+              <source
+                srcset="
+                  ./images/features/features-picture-214-468.png    1x,
+                  ./images/features/features-picture-214-468@2x.jpg 2x
+                "
+                media="(min-width: 320px)" />
+
+              <img
+                src=" ./images/features/features-picture-214-468.png"
+                class="features-img"
+                alt="app features" />
+            </picture>
+            <ul class="features-list">
+              <li class="features-item features-item-four">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#cellphone"></use>
+                </svg>
+                <h3 class="features-item-header item-header">
+                  iso & android version
+                </h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="features-item features-item-five">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#eyescanner"></use>
+                </svg>
+                <h3 class="features-item-header item-header">
+                  retina ready greaphics
+                </h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+              <li class="features-item features-item-six">
+                <svg class="features-icon" width="50" height="50">
+                  <use href="./images/sprite.svg#telemarketer"></use>
+                </svg>
+                <h3 class="features-item-header item-header">
+                  24/7 support by real pepole
+                </h3>
+                <p class="text features-item-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
-    </header>
-    <main></main>
+    </main>
     <footer></footer>
   </body>
 </html>

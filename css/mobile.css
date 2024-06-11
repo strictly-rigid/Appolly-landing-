@@ -3,4 +3,50 @@
     padding-top: 60px;
     padding-bottom: 60px;
   }
+
+  .about-section {
+    padding-bottom: 92px;
+  }
+
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ----------------- FEATURES ----------------- */
+  .features-section {
+    background-image: url("../images/features/features-bg-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .features-section-header {
+    color: var(--background-color);
+  }
+
+  .features-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features-item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  .features-item-header {
+    color: var(--background-color);
+    margin-bottom: 18px;
+  }
+
+  .features-text {
+    color: var(--background-color);
+    margin-bottom: 32px;
+  }
+
+  .features-item-text {
+    color: var(--background-color);
+  }
+
+  .features-icon {
+    margin-bottom: 30px;
+  }
 }

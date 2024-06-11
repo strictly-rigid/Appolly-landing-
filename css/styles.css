@@ -68,6 +68,21 @@ button {
   text-decoration: none;
 }
 
+.section-header {
+  margin-bottom: 18px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: calc(38 / 25);
+  text-transform: uppercase;
+}
+
+.item-header {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(30 / 20);
+  text-transform: uppercase;
+}
+
 /* ----------------- HEADER ----------------- */
 .navigation {
   background-color: aqua;
@@ -89,27 +104,41 @@ button {
 }
 
 /* ----------------- ABOUT ----------------- */
-.about-section-header {
-  margin-bottom: 18px;
-  font-weight: 600;
-  font-size: 25px;
-  line-height: calc(38 / 25);
-  text-transform: uppercase;
 
+.about-container {
+  text-align: center;
+}
+.about-section-header {
   color: var(--headers-color);
 }
 
-.item-header {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: calc(30 / 20);
-  text-transform: uppercase;
-
+.about-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 18px;
+}
+.about-list-header {
   color: var(--headers-color);
+  margin-bottom: 3px;
+}
+
+.about-img {
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .about-main-text {
   margin-bottom: 40px;
+}
+
+.about-list-item-wrapper {
+  display: flex;
+}
+.about-checkbox {
+  margin-right: 18px;
 }
 
 .text {
@@ -120,19 +149,48 @@ button {
   color: var(--primary-text-color);
 }
 
+.about-item-text {
+  text-align: left;
+  padding-left: 43px;
+}
+
+.about-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+/* ----------------- FEATURES ----------------- */
+.features-container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+picture {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.features-img {
+  object-fit: contain;
+  display: block;
+}
+
+/* ----------------- MEDIA ----------------- */
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
-    padding-left: 16px;
-    padding-right: 16px;
+    width: 343px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 688px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
