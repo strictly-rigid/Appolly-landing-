@@ -73,4 +73,27 @@
     gap: 25px;
     margin-bottom: 60px;
   }
+
+  /* ----------------- USAGE ----------------- */
+  .section-usage {
+    background-image: url("../images/usage/usage-desktop-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 216px;
+    min-height: 477px;
+  }
+
+  .section-usage-header {
+    margin-bottom: 23px;
+    max-width: 600px;
+  }
+
+  .usage-container {
+    max-width: 600px;
+  }
+
+  .section-usage-video {
+    width: 779px;
+    height: 319px;
+  }
 }

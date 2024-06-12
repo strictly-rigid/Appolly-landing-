@@ -8,7 +8,7 @@
     padding-bottom: 159px;
   }
 
-  .about-section-header {
+  .section-header {
     font-weight: 700;
     font-size: 31px;
     line-height: calc(47 / 31);
@@ -92,5 +92,30 @@
   .download-links-wrapper {
     justify-content: space-around;
     margin-bottom: 40px;
+  }
+
+  /* ----------------- USAGE ----------------- */
+  .section-usage {
+    padding-top: 49px;
+  }
+
+  .usage-container {
+    max-width: 450px;
+  }
+
+  .section-usage-header {
+    margin-bottom: 18px;
+    max-width: 357px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-usage-text {
+    margin-bottom: 60px;
+  }
+
+  .section-usage-video {
+    width: 570px;
+    height: 231px;
   }
 }

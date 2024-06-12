@@ -3,7 +3,7 @@
   --headers-color: #232233;
   --background-color: #ffffff;
   --accent-color: #7572ff;
-  --button-color: #5956e9;
+  --background-color-secondary: #5956e9;
   --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -98,7 +98,7 @@ button {
   display: inline-block;
   width: 76px;
   height: 34px;
-  background-color: var(--button-color);
+  background-color: var(--background-color-secondary);
   border-radius: 3px;
   text-transform: uppercase;
 }
@@ -197,6 +197,48 @@ button {
   margin-bottom: 60px;
 }
 
+/* ----------------- USAGE ----------------- */
+.section-usage {
+  position: relative;
+
+  background-color: var(--background-color-secondary);
+}
+.usage-container {
+  max-width: 300px;
+}
+
+.section-usage-header {
+  color: var(--background-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-usage-text {
+  color: var(--background-color);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* .background-wrapper {
+  background: red;
+} */
+
+.section-usage-video {
+  position: absolute;
+  /* transform: translateY(0px); */
+  z-index: 100;
+  width: 343px;
+  height: 150px;
+  box-shadow: 0px 10px 100px rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
 /* ----------------- MEDIA ----------------- */
 @media screen and (min-width: 375px) {
   .container {
