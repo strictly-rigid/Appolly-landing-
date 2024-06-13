@@ -118,4 +118,45 @@
     width: 570px;
     height: 231px;
   }
+
+  /* ----------------- TEAM ----------------- */
+  .section-team {
+    padding-top: 235px;
+  }
+
+  .section-team-text {
+    margin-bottom: 32px;
+  }
+
+  .section-team-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-team-list > .section-team-item {
+    max-width: 213px;
+    margin-bottom: 0;
+  }
+
+  .team-photo-container {
+    margin-bottom: 11px;
+  }
+
+  .photo-border {
+    top: 33px;
+    left: -6px;
+  }
+
+  .section-team-item-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    margin-bottom: 9px;
+  }
+
+  .section-team-item-job {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    margin-bottom: 18px;
+  }
 }

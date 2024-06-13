@@ -96,4 +96,54 @@
     width: 779px;
     height: 319px;
   }
+
+  /* ----------------- TEAM ----------------- */
+
+  .section-team {
+    padding-top: 280px;
+  }
+
+  .section-team-header {
+    margin-bottom: 23px;
+  }
+
+  .section-team-text {
+    margin-bottom: 60px;
+  }
+
+  .section-team-list {
+    gap: 30px;
+  }
+
+  .section-team-list > .section-team-item {
+    max-width: 370px;
+  }
+
+  .team-photo-container {
+    margin-bottom: 66px;
+  }
+
+  .section-team-item-header {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: calc(47 / 31);
+    margin-bottom: 0;
+  }
+
+  .section-team-item-job {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+  }
+
+  .photo-border {
+    top: 32px;
+    left: -8px;
+    width: 108%;
+  }
+
+  .section-team-item-text {
+    max-width: 326px;
+    margin-bottom: 40px;
+  }
 }
