@@ -146,4 +146,22 @@
     max-width: 326px;
     margin-bottom: 40px;
   }
+
+  /* ----------------- CUSTOMERS ----------------- */
+  .section-customers-item {
+    max-width: 770px;
+    margin: 0 auto;
+  }
+
+  .customers-item-header {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: calc(47 / 31);
+  }
+
+  .customers-item-job {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+  }
 }
