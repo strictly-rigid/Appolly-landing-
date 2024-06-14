@@ -184,4 +184,31 @@
   .section-customers-item {
     max-width: 688px;
   }
+
+  /* ----------------- BLOG ----------------- */
+  .section-blog-container {
+    width: 748px;
+  }
+  .section-blog-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-blog-list > .section-blog-item {
+    min-width: 234px;
+    margin-bottom: 0;
+  }
+
+  .blog-item-wrapper {
+    padding: 30px 17px;
+    width: 100%;
+  }
+
+  .section-blog-item-text {
+    margin-bottom: 40px;
+  }
+
+  .section-blog-item-header {
+    width: 196px;
+  }
 }

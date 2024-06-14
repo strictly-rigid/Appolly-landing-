@@ -164,4 +164,35 @@
     font-size: 20px;
     line-height: calc(30 / 20);
   }
+
+  /* ----------------- BLOG ----------------- */
+  .section-blog-container {
+    width: 1170px;
+  }
+
+  .section-blog-list > .section-blog-item {
+    width: 390px;
+  }
+
+  .section-blog-header {
+    margin-bottom: 23px;
+  }
+
+  .section-blog-text {
+    margin-bottom: 60px;
+  }
+
+  .blog-item-wrapper {
+    width: 100%;
+    padding: 40px 17px 36px;
+    margin: 0;
+  }
+
+  .section-blog-item-text {
+    margin-bottom: 28px;
+  }
+
+  .section-blog-item-header {
+    width: 334px;
+  }
 }
