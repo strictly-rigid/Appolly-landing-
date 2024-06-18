@@ -68,6 +68,10 @@ button {
   text-decoration: none;
 }
 
+input {
+  padding: 0;
+}
+
 .section-header {
   margin-bottom: 18px;
   font-weight: 600;
@@ -241,6 +245,11 @@ button {
 
 .team-social-icon:is(:hover, :focus) {
   fill: var(--background-color-secondary);
+}
+
+.footer {
+  background-color: var(--headers-color);
+  color: var(--background-color);
 }
 /* ----------------- MEDIA ----------------- */
 @media screen and (min-width: 375px) {

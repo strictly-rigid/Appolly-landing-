@@ -195,4 +195,55 @@
   .section-blog-item-header {
     width: 334px;
   }
+
+  /* ----------------- FOOTER ----------------- */
+
+  .contacts-card {
+    width: 1170px;
+  }
+
+  .contacts-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 18px;
+  }
+
+  .contacts-link {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: calc(38 / 25);
+    text-transform: lowercase;
+  }
+
+  .footer-contacts-list > .footer-contacts-item {
+    padding: 65px 0 65px 50px;
+  }
+
+  .footer-contacts-item:first-child::after {
+    height: 117px;
+    top: 40px;
+  }
+
+  .footer-content-wrapper {
+    align-items: stretch;
+    padding-top: 235px;
+    padding-bottom: 66px;
+    gap: 32px;
+  }
+
+  .logo-wrapper {
+    width: 369px;
+  }
+
+  .footer-social-list {
+    justify-content: flex-start;
+  }
+
+  .footer-links {
+    width: 369px;
+  }
+
+  .newsletter {
+    width: 369px;
+  }
 }

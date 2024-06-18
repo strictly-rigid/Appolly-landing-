@@ -211,4 +211,136 @@
   .section-blog-item-header {
     width: 196px;
   }
+
+  /* ----------------- FOOTER ----------------- */
+  .footer-container {
+    display: flex;
+  }
+
+  .contacts-card {
+    width: 688px;
+    height: auto;
+    padding: 0;
+  }
+
+  .footer-contacts-list > .footer-contacts-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 45px 18px;
+  }
+
+  .contacts-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    margin-right: 17px;
+  }
+
+  .logo-wrapper {
+    padding-top: 0;
+  }
+
+  .footer-contacts-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-content-wrapper {
+    display: flex;
+    align-items: end;
+    gap: 24px;
+    padding-bottom: 56px;
+    padding-top: 135px;
+  }
+
+  .footer-contacts-item {
+    flex-basis: 50%;
+  }
+
+  .footer-contacts-item:first-child {
+    position: relative;
+  }
+
+  .footer-contacts-item:first-child::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 3px;
+    height: 106px;
+    background-color: #6c6c72;
+  }
+
+  .contacts-link {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
+
+  .logo-wrapper {
+    width: 213px;
+    margin-bottom: 0;
+  }
+
+  .logo-text {
+    margin-bottom: 30px;
+  }
+
+  .footer-links {
+    width: 213px;
+    margin-bottom: 0;
+  }
+
+  .link-header,
+  .newsletter-header {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+  }
+
+  .newsletter {
+    width: 213px;
+  }
+
+  .newsletter-text {
+    margin-bottom: 30px;
+  }
+
+  .footer-email {
+    padding-left: 15px;
+  }
+
+  .footer-email::placeholder {
+    font-weight: 300;
+    font-size: 12.8px;
+    line-height: calc(13 / 12.8);
+    color: #6c6c72;
+  }
+
+  .form {
+    padding: 0;
+  }
+
+  .btn-subscribe {
+    width: 52px;
+  }
+
+  .copyright-wrapper {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .copyright-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
+
+  .copyright-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
