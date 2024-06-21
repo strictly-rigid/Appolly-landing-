@@ -4,6 +4,49 @@
     padding-bottom: 120px;
   }
 
+  /* ----------------- HERO ----------------- */
+
+  .section-hero {
+    background-image: url("../images/hero/bg-desktop.jpg");
+
+    padding-top: 216px;
+    padding-bottom: 83px;
+  }
+
+  .hero-container {
+    align-items: center;
+    gap: 124px;
+  }
+
+  .hero-content-wrapper {
+    min-width: 570px;
+    padding: 40px 23px 40px 30px;
+    margin-bottom: 40px;
+    background-color: var(--background-color);
+  }
+
+  .hero-background {
+    min-height: 432px;
+  }
+
+  .hero-header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: calc(63 / 48);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .hero-text {
+    margin-bottom: 52px;
+  }
+
+  .hero-secondary-text {
+    font-size: 25px;
+    line-height: calc(38 / 25);
+    margin-bottom: 5px;
+  }
+
   .about-section {
     padding-bottom: 138px;
   }

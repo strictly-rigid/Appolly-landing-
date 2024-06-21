@@ -4,6 +4,81 @@
     padding-bottom: 60px;
   }
 
+  /* ----------------- HERO ----------------- */
+  .section-hero {
+    position: relative;
+    background-image: url("../images/hero/bg-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 188px;
+    padding-bottom: 120px;
+  }
+
+  .hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background-color);
+    z-index: 1;
+  }
+
+  .hero-header,
+  .hero-text,
+  .hero-secondary-text,
+  .hero-links-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+
+  .hero-content-wrapper {
+    position: relative;
+    width: 323px;
+    height: 318px;
+    padding: 30px 12px 20px 18px;
+    margin-bottom: 40px;
+    background-color: var(--background-color);
+    z-index: 2;
+  }
+
+  .decoration-pic-wrapper {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    z-index: -1;
+  }
+
+  .hero-header {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: calc(38 / 25);
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    color: var(--background-color-secondary);
+  }
+
+  .hero-text {
+    margin-bottom: 30px;
+  }
+
+  .hero-secondary-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+
+    text-transform: uppercase;
+    margin-bottom: 18px;
+  }
+
+  .hero-links-wrapper {
+    display: flex;
+  }
+
+  .app-design-pic {
+    padding-left: 39px;
+  }
+
   .about-section {
     padding-bottom: 92px;
   }
