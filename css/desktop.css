@@ -4,6 +4,11 @@
     padding-bottom: 120px;
   }
 
+  /* ----------------- HEADER ----------------- */
+  .header-contacts {
+    margin-bottom: 15px;
+  }
+
   /* ----------------- HERO ----------------- */
 
   .section-hero {
