@@ -31,6 +31,10 @@
     margin-left: 9px;
   }
 
+  .header-list {
+    display: none;
+  }
+
   /* ----------------- HERO ----------------- */
   .section-hero {
     position: relative;

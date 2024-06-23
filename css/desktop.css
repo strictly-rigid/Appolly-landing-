@@ -9,6 +9,36 @@
     margin-bottom: 15px;
   }
 
+  .navigation-wrapper {
+    /* justify-content: space-between; */
+  }
+
+  .mobile-menu-open {
+    display: none;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-list-one {
+    margin-left: 52px;
+    margin-right: auto;
+  }
+
+  .header-list-two {
+    margin-right: 43px;
+  }
+
+  .header-list-link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    text-transform: uppercase;
+    color: var(--headers-color);
+  }
+
   /* ----------------- HERO ----------------- */
 
   .section-hero {
