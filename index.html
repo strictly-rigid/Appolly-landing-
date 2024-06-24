@@ -98,21 +98,21 @@
 
             <ul class="header-list header-list-one">
               <li class="header-list-item">
-                <a class="header-list-link" href="">Home</a>
+                <a class="header-list-link current" href="">Home</a>
               </li>
               <li class="header-list-item">
-                <a class="header-list-link" href="">About</a>
+                <a class="header-list-link" href="#about">About</a>
               </li>
               <li class="header-list-item">
-                <a class="header-list-link" href="">Features</a>
+                <a class="header-list-link" href="#features">Features</a>
               </li>
             </ul>
             <ul class="header-list header-list-two">
               <li class="header-list-item">
-                <a class="header-list-link" href="">Screenshot</a>
+                <a class="header-list-link" href="#team">Screenshot</a>
               </li>
               <li class="header-list-item">
-                <a class="header-list-link" href="">Blog</a>
+                <a class="header-list-link" href="#blog">Blog</a>
               </li>
             </ul>
             <a class="download-link" href="#" download>Download</a>
@@ -148,6 +148,34 @@
             </div>
           </div>
         </nav>
+      </div>
+
+      <div class="mobile-menu" data-menu>
+        <div class="mobile-menu-container">
+          <button type="button" class="mobile-menu-close-btn" data-menu-close>
+            <svg class="modal-close-btn-icon" width="35" height="35">
+              <use href="./images/sprite.svg#close-btn"></use>
+            </svg>
+          </button>
+
+          <ul class="mobile-menu-nav list">
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="">Home</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#about">About</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#features">Features</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#team">Screenshot</a>
+            </li>
+            <li class="mobile-menu-item">
+              <a class="mobile-menu-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -302,7 +330,7 @@
       </section>
 
       <!--SECTION ABOUT-->
-      <section class="about-section section">
+      <section class="about-section section" id="about">
         <div class="container about-container">
           <h2 class="about-section-header">About Our App</h2>
           <p class="text dark-style-text about-main-text">
@@ -357,7 +385,7 @@
       </section>
 
       <!--SECTION FEATURES-->
-      <section class="section features-section">
+      <section class="section features-section" id="features">
         <div class="features-container">
           <h2 class="features-section-header section-header">App features</h2>
           <p class="text features-text">
@@ -658,7 +686,7 @@
       </section>
 
       <!--SECTION TEAM-->
-      <section class="section section-team">
+      <section class="section section-team" id="team">
         <div class="container section-team-container">
           <h2 class="section-header section-team-header">Our team</h2>
           <p class="text section-team-text">
@@ -967,7 +995,7 @@
       </section>
 
       <!--SECTION BLOG-->
-      <section class="section section-blog">
+      <section class="section section-blog" id="blog">
         <div class="container section-blog-container">
           <h2 class="section-header section-blog-header">Our recent blog</h2>
           <p class="text section-blog-text">

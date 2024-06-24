@@ -35,6 +35,37 @@
     display: none;
   }
 
+  .mobile-menu {
+    position: fixed;
+    width: 267px;
+    height: 356px;
+    background-color: var(--background-color);
+  }
+
+  .mobile-menu-container {
+    padding-top: 67px;
+    padding-bottom: 39px;
+    padding-left: 40px;
+  }
+
+  .mobile-menu-link {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    text-transform: uppercase;
+    color: var(--headers-color);
+  }
+
+  .mobile-menu-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  .mobile-menu-close-btn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+
   /* ----------------- HERO ----------------- */
   .section-hero {
     position: relative;
