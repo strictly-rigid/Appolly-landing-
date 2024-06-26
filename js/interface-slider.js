@@ -2,6 +2,21 @@ const swiper = new Swiper(".swiper", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
+
+  effect: "coverflow",
+
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  initialSlide: 2,
+  // spaceBetween: 4,
+  coverflowEffect: {
+    rotate: 0,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
   // If we need pagination
   pagination: {
     el: ".swiper-pagination",

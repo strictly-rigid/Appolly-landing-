@@ -204,6 +204,7 @@
 
   /* ----------------- INTERFACE ----------------- */
   .interface-container {
+    /* width: 100%; */
     text-align: center;
   }
 
@@ -220,6 +221,11 @@
     position: static;
   }
 
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+  }
+
   .swiper-pagination .swiper-pagination-bullet {
     background: rgba(17, 17, 17, 0.5);
 
@@ -233,6 +239,10 @@
     background-color: var(--background-color-secondary);
     width: 28px;
     border-radius: 8px;
+  }
+
+  .interface-img {
+    margin: 0 auto;
   }
 
   /* ----------------- DOWNLOAD ----------------- */
