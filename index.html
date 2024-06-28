@@ -1172,16 +1172,51 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
             nunc ante velit vitae
           </p>
-          <ul class="list section-customers-list">
-            <li class="section-customers-item">
-              <h3 class="customers-item-header">Ann Lubin</h3>
-              <p class="text customers-item-job">CO-FUNDER</p>
-              <p class="text customers-item-review">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-                nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.
-              </p>
-            </li>
-          </ul>
+          <div class="swiper-customers">
+            <ul class="list section-customers-list swiper-wrapper">
+              <li class="swiper-slide section-customers-item">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/customers/profile-pic-96-96.jpg    1x,
+                      ./images/customers/profile-pic-96-96@2x.jpg 2x
+                    "
+                    media="(min-width: 1440px)" />
+                  <source
+                    srcset="
+                      ./images/customers/profile-pic-50-50.jpg    1x,
+                      ./images/customers/profile-pic-50-50@2x.jpg 2x
+                    "
+                    media="(min-width: 768px)" />
+                  <source
+                    srcset="
+                      ./images/customers/profile-pic-50-50.jpg    1x,
+                      ./images/customers/profile-pic-50-50@2x.jpg 2x
+                    "
+                    media="(min-width: 375px)" />
+                  <source
+                    srcset="
+                      ./images/customers/profile-pic-50-50.jpg    1x,
+                      ./images/customers/profile-pic-50-50@2x.jpg 2x
+                    "
+                    media="(min-width: 320px)" />
+
+                  <img
+                    src="./images/customers/profile-pic-50-50.jpg"
+                    class="customer-img"
+                    alt="customer pic"
+                /></picture>
+                <h3 class="customers-item-header">Ann Lubin</h3>
+                <p class="text customers-item-job">CO-FUNDER</p>
+                <p class="text customers-item-review">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Viverra nunc ante velit vitae. Est tellus vitae, nullam
+                  lobortis enim.
+                </p>
+              </li>
+            </ul>
+            <div class="swiper-pagination-customers"></div>
+          </div>
         </div>
       </section>
 
@@ -1453,6 +1488,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./js/interface-slider.js"></script>
+    <script src="./js/customers-slider.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

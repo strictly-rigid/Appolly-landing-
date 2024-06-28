@@ -148,6 +148,26 @@
     left: 436px;
   }
 
+  /* ----------------- INTERFACE ----------------- */
+  .interface-container {
+    width: 1300px;
+  }
+
+  /* .swiper-button-prev,
+  .swiper-button-next {
+    position: relative;
+    display: inline-block;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: var(--background-color-secondary);
+  }
+
+  .swiper-button-next::after {
+    position: absolute;
+    color: var(--background-color);
+    top: 10px;
+  } */
   .download-container {
     gap: 80px;
   }
@@ -236,9 +256,23 @@
   }
 
   /* ----------------- CUSTOMERS ----------------- */
+
+  .section-customers {
+    background-image: url("../images/customers/desktop-bg.jpg");
+  }
   .section-customers-item {
-    max-width: 770px;
+    width: 770px;
+    height: 100%;
     margin: 0 auto;
+    padding: 40px 62px;
+  }
+
+  .section-customers-header {
+    margin-bottom: 23px;
+  }
+
+  .section-customers-text {
+    margin-bottom: 60px;
   }
 
   .customers-item-header {
@@ -254,6 +288,11 @@
   }
 
   /* ----------------- BLOG ----------------- */
+
+  .section-blog {
+    padding-bottom: 235px;
+  }
+
   .section-blog-container {
     width: 1170px;
   }

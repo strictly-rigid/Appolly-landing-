@@ -268,10 +268,15 @@
   }
 
   .section-customers-item {
-    max-width: 688px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 23px 38px;
   }
 
   /* ----------------- BLOG ----------------- */
+  .section-blog {
+    padding-bottom: 195px;
+  }
   .section-blog-container {
     width: 748px;
   }
